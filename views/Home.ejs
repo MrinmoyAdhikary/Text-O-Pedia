@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Home.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="option">
+            <div class="login clicked" type="button">SIGN IN</div>
+            <div class="register" type="button">SIGN OUT</div>
+        </div>
+        <div class="signInForm">
+            <form>
+                <label for="uname">UserName</label>
+                <input type="text" placeholder="Enter The UserName" id="uname" /><br />
+                <label for="upass">Password</label>&nbsp;&nbsp;
+                <input
+                type="password"
+                placeholder="Enter The Password"
+                id="upass"
+                /><br />
+                <button>Sign In</button>
+            </form>
+        </div>  
+      <div class="signOutForm form-hide">
+            <form>
+              <div class="form-group">
+                <label for="uname">UserName</label>
+                <input type="text" placeholder="Enter Your Name" id="uname" /><br />
+              </div>
+              
+              <div class="form-group">
+                <label for="phnno">Phone Number</label>
+                <input type="number" placeholder="Enter your phone number" id="phnno">
+              </div>
+
+              <div class="form-group">
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob">
+              </div>
+
+              <div class="form-group">
+                <label for="upass">Password</label>&nbsp;&nbsp;
+                <input
+                type="password"
+                placeholder="Enter your Password"
+                id="upass"
+                /><br />
+              </div>
+               
+               
+                
+                <button>Log In</button>
+            </form>
+        </div>  
+    </div>
+    <script src="JS/Home.js"></script>
+  </body>
+</html>
